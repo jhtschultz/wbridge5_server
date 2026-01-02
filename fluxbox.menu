@@ -1,0 +1,8 @@
+[begin] (WBridge5 Desktop)
+    [exec] (WBridge5) {env WINEPREFIX=/opt/wbridge5/wineprefix WINEARCH=win64 wine64 start /unix /opt/wbridge5/wineprefix/drive_c/Wbridge5/Wbridge5.exe}
+    [separator]
+    [config] (Fluxbox Settings)
+    [reconfig] (Reload Config)
+    [restart] (Restart Fluxbox)
+    [exit] (Exit Session)
+[end]

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=WBridge5
+Comment=Play bridge with WBridge5 via Wine
+Exec=env WINEPREFIX=/opt/wbridge5/wineprefix WINEARCH=win64 wine64 start /unix /opt/wbridge5/wineprefix/drive_c/Wbridge5/Wbridge5.exe
+Icon=applications-games
+Terminal=false
+Categories=Game;CardGame;
