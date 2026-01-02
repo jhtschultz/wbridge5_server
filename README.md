@@ -15,7 +15,6 @@ This folder contains a container image that installs WBridge5 inside a Wine-powe
 ## Building Locally
 
 ```bash
-cd wbridge5
 chmod +x start.sh
 docker build -t wbridge5-novnc .
 docker run --rm -p 8080:8080 wbridge5-novnc   # use -p 8082:8080 if 8080 is occupied
